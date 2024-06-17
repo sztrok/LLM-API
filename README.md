@@ -1,5 +1,7 @@
 # LLM API DEMO
-Node JS and Express JS application used for creating article summary from given URL. 
+NodeJS and ExpressJS application used for creating article summary from given URL. 
+
+NodeJS version: 10.5.0
   
 To establish connection, create a **.env** file in root directory and add property **OPEN_AI_KEY='your-key'**
 
