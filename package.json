@@ -1,0 +1,30 @@
+{
+  "name": "llm-demo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cookie-parser": "~1.4.4",
+    "debug": "~4.3.5",
+    "dotenv": "^16.4.5",
+    "express-rate-limit": "^7.3.1",
+    "helmet": "^7.1.0",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "openai": "^4.51.0",
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.2",
+    "chai": "^5.1.1",
+    "express": "^4.19.2",
+    "mocha": "^10.4.0",
+    "sinon": "^18.0.0",
+    "supertest": "^7.0.0"
+  }
+}
